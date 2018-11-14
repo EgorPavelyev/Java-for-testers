@@ -54,31 +54,36 @@ public final class Slot {
 
                 if (res1 == res2) {
                     System.out.println("Win 2 barabans");
+                    money = money-100;
                 } else {
                     System.out.println("lose");
                 }
                 if (res2 == res3) {
                     System.out.println("Win 2 barabans");
+                    money = money-100;
                 } else {
                     System.out.println("lose");
                 }
                 if (res1 == res2) {
                     System.out.println("Win 2 barabans");
+                    money = money-100;
                 } else {
                     System.out.println("lose");
                 }
                 if (res1 / res2 / res3 == 1) {
                     System.out.println("Congratulations! Win 3 barabans");
+                    money = money-100;
                 } else {
                     System.out.println("lose");
 
 
-                    // TODO: 2018-11-14 провернуть барабаны (все 3) и определить каждую ячейку
-                    int baraban1Position = 0;
-                    int baraban2Position = 0;
-                    int baraban3Position = 0;
+
                 }
-                // TODO: 2018-11-14 уменьшить или увеличить money и выйти
+                // TODO: 2018-11-14 провернуть барабаны (все 3) и определить каждую ячейку
+
+                               // TODO: 2018-11-14 уменьшить или увеличить money и выйти
+
+
             }
         }while (money >0);
 
